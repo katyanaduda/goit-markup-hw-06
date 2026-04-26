@@ -749,7 +749,7 @@ address {
         font-weight: 400;
     }
 }
-/* ------------------------------Mobile taste------------------- */
+/* ------------------------------Mobile teams------------------- */
 .team {
     background-color: #f4f4fd;
 }
@@ -816,9 +816,6 @@ address {
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.taste-link-icon {
-
-}
 .social-list-link:hover,
 .social-list-link:focus {
     background-color: #404bbf;
@@ -827,12 +824,11 @@ address {
 .social-icon {
     width: 16px;
     height: 16px;
-    taste-link-icon
 }
 
 /* ------------------------------Tablet taste------------------- */
 @media screen and (min-width: 768px) {
-    .taste-list {
+    .team-list {
     display: flex;
     column-gap: 24px;
     row-gap: 64px;
@@ -841,7 +837,7 @@ address {
     padding-right: 92px;
     }
 
-    .taste-card{
+    .list-item{
         width: calc((100% - 24px) / 2);
         margin-bottom: 0;
     }
@@ -1107,7 +1103,7 @@ address {
 }
 /* ------------------------------------Tablet footer-------------------- */
 @media screen and (min-width: 768px) {
-    .top-footer-box {
+    .upper-footer-box {
         display: flex;
         align-items: baseline;
         column-gap: 24px;
