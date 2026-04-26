@@ -62,7 +62,7 @@ address {
 .hidden {
     display: none;
 }
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -255,6 +255,9 @@ address {
     align-items: center;
     column-gap: 40px;
 }
+.phone-link {
+    color: #4d5ae5;
+}
 
 .mobile-menu-social-list-link {
     display: flex;
@@ -358,7 +361,7 @@ address {
     margin-bottom: 8px;
 }
 
-.contact-form-field-label {
+.contact-form-label {
     display: block;
     font-weight: 400;
     font-size: 12px;
@@ -934,6 +937,7 @@ address {
         width: 356px;
     }
 }
+
 /* ----------------------------------Destop portfolio--------------------- */
 @media screen and (min-width: 1158px) {
     .portfolio-img {
@@ -1167,7 +1171,7 @@ address {
     display: flex;
     align-items: baseline;
     }
-.top-footer-box {
+.upper-footer-box {
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
